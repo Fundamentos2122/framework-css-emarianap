@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body { margin: 0;}
+
+:root{ /* decalaración de variables */
+     --color-primary-clear:#72a8f9;
+    --color-primary:#0d6efd;
+    --color-primary-darked:#0c4fb3;
+    --color-secondary-clear:#d8d8d8;
+    --color-secondary:#adb5bd;
+    --color-secondary-darked:#8f959b;
+    --color-succes-clear:#568f74;
+    --color-succes:#198754;
+    --color-succes-darked:#115837;
+    --color-info-clear:#70b3bd;
+    --color-info:#17a2b8;
+    --color-info-darked:#127d8d;
+    --color-warning-clear:#ffe28a;
+    --color-warning:#ffc107;
+    --color-warning-darked:#c7980b;
+    --color-danger-clear:#df7e87;
+    --color-danger:#dc3545;
+    --color-danger-darked:#af2835;
+    --color-light:#f8f9fa;
+    --color-light-darked:#c9caca;
+    --color-dark:#343a40;
+    --color-dark-darked:#191c1f;
+    --border-color: #dee2e6;
+    --container-padding: 1.5em;   
+}
