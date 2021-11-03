@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: Lovelo-Black;
+    src: url('../fuentes/Lovelo-Black.otf');
+}
+
 * {
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body { margin: 0;}
 
 :root{ /* decalaración de variables */
-     --color-primary-clear:#72a8f9;
+    --color-txt: #41516a;
+    --color-title: #5055e4;
+    --color-primary-clear:#72a8f9;
     --color-primary:#0d6efd;
     --color-primary-darked:#0c4fb3;
     --color-secondary-clear:#d8d8d8;
@@ -25,8 +34,8 @@ html, body { margin: 0;}
     --color-danger-clear:#df7e87;
     --color-danger:#dc3545;
     --color-danger-darked:#af2835;
-    --color-light:#f8f9fa;
-    --color-light-darked:#c9caca;
+    --color-light: #f8f8f8;
+    --color-light-darked: #999;
     --color-dark:#343a40;
     --color-dark-darked:#191c1f;
     --border-color: #dee2e6;
