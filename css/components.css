@@ -215,13 +215,13 @@
     text-decoration: none;
     color: var(--color-dark);
     font-weight: 600;
-    font-size: 1.25em;
+    font-size: 1.6em;
 }
 
 .navbar-nav{
     display: flex;
     margin: 0;
-    padding: 1em;
+    padding: 1.3em;
     
 }
 
@@ -233,12 +233,12 @@
     display: block;
     padding: 0.5em 0.75em;
     text-decoration: none;
-    color: var(--color-dark);
+    color: var(--color-title);
 }
 
  .nav-link:hover{
-    background-color: var(--color-light-darked);
-    /* color: var(--color-light); */
+    background-color: var(--color-title);
+    color: var(--color-light);
 } 
 
 .dropdown-menu{
