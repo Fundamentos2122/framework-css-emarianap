@@ -94,3 +94,7 @@
 .border-dark{
     border-color: var(--color-dark);
 }
+.align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+}
