@@ -8,17 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="modal">
+    <div class="modal" id="modal_test">
         <div class="modal-content">
            <div class="modal-header">
                 <h5>Encabezado</h5>
-                <button>X</button>
+                <button data-dismiss="#modal_test">X</button>
            </div>
            <div class="modal-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore repellat, ipsa aperiam vero quam ullam cum corrupti quo placeat dolore facilis ea odio autem voluptates sed officia soluta.lorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam inventore 
            </div>
            <div class="modal-footer">
-                <button class="btn btn-secondary">Close</button>
+                <button class="btn btn-secondary" data-dismiss="#modal_test">Close</button>
                 <button class="btn btn-primary">Save Changes</button>
            </div>
         </div>
@@ -27,6 +27,11 @@
     <div class="bg-primary">
         hola mundo
     </div>
-    
+
+   <button class="btn btn-succes" data-toggle="modal" data-target="#modal_test">Abrir modal 1</button>
+
+   <button class="btn btn-succes" data-toggle="modal" data-target="#otro_modal">Abrir modal 2</button>
+
+    <script src="js/framework.js"></script>
 </body>
 </html>
