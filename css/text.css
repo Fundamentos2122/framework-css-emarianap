@@ -33,6 +33,11 @@ h6, .h6{
     font-size: 1em;
 }
 
+.p{
+    font-size: 18px;
+    color: var(--color-txt);
+}
+
 .display-1{
     font-size: 6em;
     font-weight: 300;
