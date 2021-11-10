@@ -10,6 +10,9 @@
     background-color: var(--color-succes);
 }
 
+.bg-succes-clear{
+    background-color: var(--color-succes-clear);
+}
 .bg-info{
     background-color: var(--color-info);
 }
